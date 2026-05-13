@@ -76,6 +76,8 @@ Independentment del nivell al qual vulguis aspirar, el projecte ha de complir co
 - Com a mínim, el backend haurà d'incloure:
   - **tests unitaris**,
   - **tests d'acceptació** sobre l'API.
+- El backend ha d'assolir una cobertura mínima de proves del **60%**.
+- Aquesta mètrica no substitueix la qualitat dels tests: la cobertura ha de reflectir proves útils sobre el flux principal, els casos d'error rellevants i els punts crítics de validació o seguretat.
 - No s'acceptarà un backend sense aquest mínim de proves automatitzades.
 - **[Docker](https://docs.docker.com/)** obligatori per a l'entorn de desenvolupament i la infraestructura, incloent com a mínim la base de dades.
 - **Desplegament funcional** d'una versió accessible del projecte o, com a mínim, del backend.
@@ -210,6 +212,7 @@ En aquest nivell es valorarà la **qualitat de la implementació** i la solidesa
 - la qualitat dels **tests obligatoris** del backend,
 - la claredat i utilitat dels **tests unitaris**,
 - la cobertura dels **tests d'acceptació** sobre els endpoints principals,
+- que la cobertura de tests del backend sigui coherent amb els riscos reals del projecte i no es limiti a inflar una mètrica,
 - la validació tant de casos correctes com de casos d'error previsibles,
 - la qualitat del model de dades i la coherència amb el procés de negoci,
 - la capacitat de refinar la feina en subissues o tasques tècniques quan això ajudi a planificar i implementar millor una funcionalitat,
