@@ -1,4 +1,7 @@
 # Sprint 5 Advanced Java
-Repositori de Sprint 5 de l'especialització de Java
+
+Sprint 5 tanca l'itinerari amb el projecte final del curs: un MVP complet amb frontend, backend, persistència, seguretat, proves, documentació de l'API i desplegament.
+
+## Contingut
 
 - [Tasca 5.2: Projecte Final - MVP](./MVP/Tasca_5.2_MVP.md)
