@@ -49,7 +49,8 @@ El frontend pot haver estat creat parcialment amb suport d'**IA generativa**, pe
 - ha d'estar fet amb un **framework**,
 - l'has de poder executar i adaptar,
 - l'has de poder explicar tècnicament,
-- i has d'entendre el flux entre interfície, estat, crides a l'API i tractament de respostes.
+- has d'entendre el flux entre interfície, estat, crides a l'API i tractament de respostes,
+- i ha de mantenir una estructura mínima i entenedora, fent servir components adequats per a cada part de la interfície i evitant concentrar tota la UI i la lògica en una sola pàgina o en un sol fitxer quan el projecte ja demani separar responsabilitats.
 
 El backend, en canvi, haurà de ser una implementació pròpia i coherent, amb responsabilitats clares, validació de dades, seguretat bàsica i respostes HTTP consistents.
 
@@ -212,6 +213,7 @@ En aquest nivell es valorarà la **qualitat de la implementació** i la solidesa
 - la validació tant de casos correctes com de casos d'error previsibles,
 - la qualitat del model de dades i la coherència amb el procés de negoci,
 - la capacitat de refinar la feina en subissues o tasques tècniques quan això ajudi a planificar i implementar millor una funcionalitat,
+- que el frontend mantingui una estructura prou clara, amb components adequats, responsabilitats separades i una organització coherent amb la mida real de cada funcionalitat,
 - que les **migracions** estiguin ben organitzades i permetin crear o actualitzar l'esquema de manera reproduïble,
 - la configuració del projecte mitjançant **variables d'entorn** quan sigui necessari,
 - la qualitat de la documentació de l'API, incloent la descripció dels endpoints, els codis de resposta, els models de dades i l'autenticació,
