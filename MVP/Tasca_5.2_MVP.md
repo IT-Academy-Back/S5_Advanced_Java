@@ -150,6 +150,7 @@ Aquest projecte final també s'ha de treballar amb una dinàmica de desenvolupam
 
 - crea **[issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)** per representar les funcionalitats o tasques principals,
 - vincula cada issue amb les **User Stories** corresponents quan sigui possible,
+- si una història o una issue és massa gran, desglossa-la en subissues o tasques tècniques més petites per separar millor la implementació, per exemple model de dades, seguretat, proves, documentació de l'API o desplegament,
 - desenvolupa cada bloc de treball en una **[branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)** separada,
 - i obre una **[pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)** per integrar els canvis, encara que la revisió i el tancament els facis tu.
 
@@ -210,6 +211,7 @@ En aquest nivell es valorarà la **qualitat de la implementació** i la solidesa
 - la cobertura dels **tests d'acceptació** sobre els endpoints principals,
 - la validació tant de casos correctes com de casos d'error previsibles,
 - la qualitat del model de dades i la coherència amb el procés de negoci,
+- la capacitat de refinar la feina en subissues o tasques tècniques quan això ajudi a planificar i implementar millor una funcionalitat,
 - que les **migracions** estiguin ben organitzades i permetin crear o actualitzar l'esquema de manera reproduïble,
 - la configuració del projecte mitjançant **variables d'entorn** quan sigui necessari,
 - la qualitat de la documentació de l'API, incloent la descripció dels endpoints, els codis de resposta, els models de dades i l'autenticació,
